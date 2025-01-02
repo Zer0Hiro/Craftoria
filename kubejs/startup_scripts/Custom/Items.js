@@ -17,4 +17,11 @@ StartupEvents.registry('item', (e) => {
   e.create('craftoria:radonium').displayName('§aRadonium');
   e.create('craftoria:cosmic_matter').displayName('§dCosmic Matter').rarity('Epic');
   e.create('craftoria:cosmic_injector').displayName('§dCosmic Injector').rarity('Epic');
+
+  if (global['universal_decoration_matter'])
+    e.create('craftoria:universal_decoration_matter')
+      .displayName('§dUniversal Decoration Matter')
+      .rarity('Epic')
+      .tooltip('Used to craft any decoration blocks')
+      .tag('craftoria:decorative_blocks');
 });

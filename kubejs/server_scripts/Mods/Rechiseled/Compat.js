@@ -1,5 +1,5 @@
 ServerEvents.generateData('last', (e) => {
-  const logging = false;
+  const logging = global['debug'];
 
   let factoryBlocks = {
     type: 'rechiseled:chiseling',
