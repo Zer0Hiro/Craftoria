@@ -1,3 +1,127 @@
+## Craftoria | v1.11.0
+
+_NeoForge Loader 21.1.90_ | _[Mod Updates](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/changelog_mods_1.11.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/modlist_1.11.0.md)_
+
+### Changes/Improvements ⭐
+
+* Added the World Tiers system, which gates content (Loot/Mob Drops) based on unlockable difficulty levels.
+As you progress through the world, you will unlock more difficult world tiers, which will give you access to better loot (and stronger enemies!)
+World Tiers are unlocked by completing certain advancements, and activated in the World Tier Select menu (opened with CTRL + T)
+* Added World Tiers quest to Getting Started chapter.
+* Turned EMI cheat mode off by default.
+* Added tag to search for all of farmers delight and addons.
+
+### Bug Fixes 🪲
+
+* Fixed tallow not dropping when using knives.
+* Fixed mimics missing artifacts loot table.
+
+### Added Mods ✅
+
+  * [Apotheosis](https://www.curseforge.com/minecraft/mc-mods/apotheosis)
+  * [Nirvana Library](https://www.curseforge.com/minecraft/mc-mods/nirvana-library)
+
+### Removed Mods ❌
+
+  * [AzureLib](https://www.curseforge.com/minecraft/mc-mods/azurelib)
+  * [Champions Unofficial](https://www.curseforge.com/minecraft/mc-mods/champions-unofficial)
+  * [Crystal Chronicles](https://www.curseforge.com/minecraft/mc-mods/crystal-chronicles)
+---
+
+## Craftoria | v1.10.2
+
+_NeoForge Loader 21.1.90_ | _[Mod Updates](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/changelog_mods_1.10.2.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/modlist_1.10.2.md)_
+
+### Bug Fixes 🪲
+
+* Fixed FPS leak with arrows stuck in player model
+---
+
+## Craftoria | v1.10.1
+
+_NeoForge Loader 21.1.90_ | _[Mod Updates](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/changelog_mods_1.10.1.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/modlist_1.10.1.md)_
+
+### Bug Fixes 🪲
+
+* Fixed particles crash.
+* Fixed disabled champion affixes not applying to servers.
+
+### Removed Mods ❌
+
+  * [Visuality: Reforged](https://www.curseforge.com/minecraft/mc-mods/visuality-reforged)
+---
+
+## Craftoria | v1.10.0
+
+_NeoForge Loader 21.1.90_ | _[Mod Updates](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/changelog_mods_1.10.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/modlist_1.10.0.md)_
+
+## DISCLAIMER: Croptopia is replaced by the many Farmer's Delight addons in this update to make farming more consistent. Backup your worlds!
+
+### Changes/Improvements ⭐
+
+* Added a Skills System (Open by pressing the "K" keybind)
+* Added Trails that follow projectiles and entities, adding a dynamic layer of movement to the world around you.
+* Added Directional screen-shaking effects triggered by loud sounds, explosions, or swift movements. Not only does this intensify your sense of immersion, it also helps you pinpoint the origin of potential threats, enhancing both atmosphere and situational awareness.
+* Added custom capes for Devs & Testers.
+* Made AE quantum armor recipes require mekasuit.
+* Disabled infested affix on mobs.
+* Added MoreRed Red Alloy Ingots in EI Alloy Smelter.
+* Disabled voltage prefix showing in MI machines.
+* Added sounds for EI machines.
+* Added info to spawner upgrade quests.
+* Lowered amount of Netherrack you get from MI gold drill (64 > 32).
+* Added Construction Sticks quests.
+* Added Rechiseled, Chipped and Chisel blocks to the stonecutter.
+* Added quest for info on skills system.
+* Improved loading times when joining a world by A LOT.
+* Added EMI info for Tesseract, MI Replicator (+ MK II), EI Processing Array, IO Multi-Processing Array & MI Overdrive Module.
+* Added quests for basic upgrade, redstone module and overdrive module.
+* Added Rechiseled compability to Chisel Reborn + Factory Blocks.
+* Made *any* logs create logs -> planks (and wood/stripped too) recipes in MI cutting machine & Mekanism sawmill.
+* Redesigned golems and added biome variants.
+
+### Bug Fixes 🪲
+
+* Fixed certain MI multiblock models using the wrong textures.
+* Fixed incorrect values in Mekanism tools config.
+* Fixed lag when picking up items first time.
+
+### Added Mods ✅
+
+  * [AllTheLeaks (Memory Leak Fix)](https://www.curseforge.com/minecraft/mc-mods/alltheleaks)
+  * [Atlas API](https://www.curseforge.com/minecraft/mc-mods/atlas-api)
+  * [AzureLib](https://www.curseforge.com/minecraft/mc-mods/azurelib)
+  * [Barbeque's Delight](https://www.curseforge.com/minecraft/mc-mods/barbeques-delight)
+  * [Bosses of Mass Destruction](https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction-forge)
+  * [CapeJS](https://www.curseforge.com/minecraft/mc-mods/capejs)
+  * [CERBON's API](https://www.curseforge.com/minecraft/mc-mods/cerbons-api)
+  * [Construction Sticks](https://www.curseforge.com/minecraft/mc-mods/construction-sticks)
+  * [Crystal Chronicles](https://www.curseforge.com/minecraft/mc-mods/crystal-chronicles)
+  * [End's Delight](https://www.curseforge.com/minecraft/mc-mods/ends-delight)
+  * [Enhanced Celestials - Blood, Blue, & Harvest (Super) Moons](https://www.curseforge.com/minecraft/mc-mods/enhanced-celestials)
+  * [Fruits Delight](https://www.curseforge.com/minecraft/mc-mods/fruits-delight)
+  * [Golems Refreshed](https://www.curseforge.com/minecraft/texture-packs/golems-refreshed)
+  * [Iron's Gems 'n Jewelry](https://www.curseforge.com/minecraft/mc-mods/irons-jewelry)
+  * [Loot Beams: Refork](https://www.curseforge.com/minecraft/mc-mods/loot-beams-refork)
+  * [My Nether's Delight](https://www.curseforge.com/minecraft/mc-mods/my-nethers-delight)
+  * [Perception](https://www.curseforge.com/minecraft/mc-mods/perception)
+  * [Pufferfish's Attributes](https://www.curseforge.com/minecraft/mc-mods/puffish-attributes)
+  * [Pufferfish's Skills](https://www.curseforge.com/minecraft/mc-mods/puffish-skills)
+  * [Rustic Delight](https://www.curseforge.com/minecraft/mc-mods/rustic-delight)
+  * [Smithing Template Viewer for JEI/EMI](https://www.curseforge.com/minecraft/mc-mods/smithing-template-viewer)
+  * [Soulplied Energistics](https://www.curseforge.com/minecraft/mc-mods/soulplied-energistics)
+  * [Super Factory Manager ( SFM )](https://www.curseforge.com/minecraft/mc-mods/super-factory-manager)
+  * [Twilight's Flavors & Delight](https://www.curseforge.com/minecraft/mc-mods/twilights-flavors-delight)
+
+### Removed Mods ❌
+
+  * [Cosmetic Armor Reworked](https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked) (Not functioning)
+  * [Croptopia](https://www.curseforge.com/minecraft/mc-mods/croptopia) (Replaced by FD addons)
+  * [Farmer's Croptopia](https://www.curseforge.com/minecraft/mc-mods/farmers-croptopia)
+  * [Loot Journal](https://www.curseforge.com/minecraft/mc-mods/loot-journal-neoforge) (Lag Issues)
+  * [Nether's Exoticism](https://www.curseforge.com/minecraft/mc-mods/nethers-exoticism)
+---
+
 ## Craftoria | v1.9.0
 
 _NeoForge Loader 21.1.79_ | _[Mod Updates](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/changelog_mods_1.9.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/modlist_1.9.0.md)_

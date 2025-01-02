@@ -22,15 +22,11 @@ ServerEvents.tags('item', (e) => {
   e.add('c:plastics', ['pneumaticcraft:plastic']);
 
   // Knives
-  e.add('occultism:tools/knife', '#c:tools/knives');
+  e.add('occultism:tools/knife', '#c:tools/knife');
 
   e.removeAll('apothic_enchanting:boon_drops');
 
   e.remove('c:storage_blocks/silicon', 'extendedae:silicon_block');
-
-  // Enchant fixes
-  e.add('minecraft:enchantable/mining', ['ae2:annihilation_plane']);
-  e.add('minecraft:enchantable/durability', ['ae2:annihilation_plane']);
 
   // Machine Frames
 
@@ -49,6 +45,19 @@ ServerEvents.tags('item', (e) => {
       e.add(`chisel:${block}`, id);
     }
   });
+
+  e.add('craftoria:farmersfood', [
+    '@mynethersdelight',
+    '@fruitsdelight',
+    '@twilightdelight',
+    '@ends_delight',
+    '@barbequesdelight',
+    '@rusticdelight',
+    '@dumplings_delight',
+    '@moredelight',
+    '@oceansdelight',
+    '@farmersdelight',
+  ]);
 });
 
 ServerEvents.tags('block', (e) => {
@@ -85,13 +94,12 @@ ServerEvents.tags('block', (e) => {
     'mekanism:diversion_transporter',
     'mekanism:restrictive_transporter',
     '#c:skulls',
+    '@glassential',
   ]);
 
   e.add('minecraft:mineable/axe', ['mekanism:cardboard_box']);
 
   e.add('minecraft:storage_blocks/quartz', 'minecraft:quartz_block');
-
-  e.add('c:budding', '#c:budding_blocks');
 
   e.remove('c:storage_blocks/silicon', 'extendedae:silicon_block');
 
@@ -109,5 +117,6 @@ ServerEvents.tags('fluid', (e) => {
 });
 
 ServerEvents.tags('entity_type', (e) => {
-  e.add('ftbchunks:entity_interact_whitelist', ['minecraft:villager']);
+  e.add('ftbchunks:entity_interact_whitelist', ['minecraft:villager', 'minecraft:wandering_trader']);
+  e.add('mob_grinding_utils:entity_type/no_swab', ['artifacts:mimic', 'minecraft:warden', '#c:bosses']);
 });
