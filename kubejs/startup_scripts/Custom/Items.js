@@ -15,9 +15,16 @@ StartupEvents.registry('item', (e) => {
 
   e.create('craftoria:eternal').displayName('§5Eternal').rarity('Epic');
   e.create('craftoria:radonium').displayName('§aRadonium');
-  e.create('craftoria:cosmic_matter').displayName('§dCosmic Matter').rarity('Epic');
-  e.create('craftoria:cosmic_injector').displayName('§dCosmic Injector').rarity('Epic');
-
+  e.create('craftoria:cosmic_matter')
+    .displayName('§dCosmic Matter')
+    .tag(`modern_industrialization:replicator_blacklist`)
+    .tag(`craftoria:replicator_1_blacklist`)
+    .rarity('Epic');
+  e.create('craftoria:cosmic_injector')
+    .displayName('§dCosmic Injector')
+    .tag(`modern_industrialization:replicator_blacklist`)
+    .tag(`craftoria:replicator_1_blacklist`)
+    .rarity('Epic');
   if (global['universal_decoration_matter'])
     e.create('craftoria:universal_decoration_matter')
       .displayName('§dUniversal Decoration Matter')
